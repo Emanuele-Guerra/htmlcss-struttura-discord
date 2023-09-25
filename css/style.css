@@ -119,5 +119,70 @@ footer{
     background-color: rgb(46, 46, 46);
 }
 .footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+   
+}
+.footer-flex{
+   display: flex;
+   height: 450px;
+   width: 20%;
+   background-color: chocolate;
+}
+.second-footer-flex{
+    display: flex;
+    height: 450px;
+    width: 15%;
+    background-color: brown;
+
+        
+}
+.third-footer-flex{
+    display: flex;
+    height: 450px;
+    width: 15%;
+    background-color: rgb(189, 80, 80);
+
+}
+.fourth-footer-flex{
+    display: flex;
+    height: 450px;
+    width: 15%;
+    background-color: brown;
+}
+.fifth-footer-flex{
+    display: flex;
+    height: 450px;
+    width: 15%;
+    background-color: rgb(206, 79, 79);
+}
+hr{
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-nav-container{
+    width: 80%;
+    height: 50px;
+    background-color: aqua;
+    margin: auto;
+
+}
+.footer-nav-flex{
     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+.footer-logo{
+    display: flex;
+    background-color: cadetblue;
+}
+.footer-items{
+    display: flex;
 }
